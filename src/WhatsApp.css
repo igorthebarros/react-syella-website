@@ -11,15 +11,45 @@
     border-radius: 50%;
     background-color: #25D366; /* WhatsApp green color */
     border: none;
-    color: white;
-    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    padding: 0;
+    overflow: hidden;
 }
 
 .whatsapp-button:hover {
+    background-color: #20b358; /* Darker green on hover */
+}
+
+.whatsApp-logo {
+    width: 200%;
+    height: 200%;
+    object-fit: contain;
+}
+
+.popUp {
+    position: absolute;
+    bottom: 80px; /* Position the popup above the button */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001; /* Ensure it appears above the button */
+}
+
+.popUp-button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #25D366; /* WhatsApp green color */
+    color: white;
+    cursor: pointer;
+}
+
+.popUp-button:hover {
     background-color: #20b358; /* Darker green on hover */
 }
