@@ -1,0 +1,49 @@
+/* WhoAmI.css */
+.whoami-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-section {
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.mosaic-section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.mosaic {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.mosaic-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.mosaic-column.large {
+    flex: 2;
+}
+
+.mosaic-column.small {
+    flex: 1;
+    gap: 10px;
+}
+
+.mosaic-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mosaic-column.small .mosaic-img {
+    height: 50%;
+}
