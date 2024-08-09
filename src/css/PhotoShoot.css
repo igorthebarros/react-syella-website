@@ -1,0 +1,31 @@
+.photo-card {
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.photo-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.modal-body img {
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.photo-thumbnail {
+    cursor: pointer;
+}
+
+.zoomed-image-modal {
+    text-align: center;
+}
+
+.zoomed-image-modal img {
+    max-width: 100%;
+    max-height: 80vh;
+}
