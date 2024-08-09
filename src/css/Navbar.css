@@ -1,0 +1,18 @@
+/* Navbar.css */
+.custom-navbar {
+    background-color: #CBBBE8; /* Set your custom background color here */
+    border-bottom: 2px solid #CBBBE8; /* Optional: Add a border at the bottom */
+}
+
+.custom-navbar .navbar-brand {
+    color: #E6E4E1; /* Set the brand text color */
+}
+
+.custom-navbar .nav-link {
+    color: #E6E4E1; /* Set the navigation link color */
+}
+
+/* Optionally, you can add hover effects or other customizations */
+.custom-navbar .nav-link:hover {
+    color: #FFFF;
+}

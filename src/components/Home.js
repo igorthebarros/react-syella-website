@@ -1,13 +1,12 @@
 import React from 'react'
-import ContactMe from './ContactMe'
+import Banner from './Banner'
+import WhoAmI from './WhoAmI'
 
 const Home = () => {
     return (
         <div>
-            <section id='contactMe'>
-                <h2>Entre em contato!</h2>
-                <ContactMe />
-            </section>
+            <Banner />
+            <WhoAmI />
         </div>
     )
 }

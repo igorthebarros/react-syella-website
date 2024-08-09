@@ -1,0 +1,39 @@
+.footer {
+    background-color: #CBBBE8; /* Background color */
+    color: white;
+    padding: 20px 0;
+}
+
+.rights-statement {
+    font-size: 14px;
+    color: #424242; /* Text color for readability */
+}
+
+.social-links-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns links to the far right */
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align links at the end of the column */
+}
+
+.social-links a {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0; /* Vertical spacing between links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-links a:hover {
+    color: #E6E4E1; /* Hover color */
+}
+
+.social-links svg {
+    margin-right: 8px;
+}
